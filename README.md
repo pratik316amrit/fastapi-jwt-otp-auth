@@ -64,7 +64,9 @@ auth-system/
 │   ├── package.json         # Frontend dependencies
 │
 └── README.md
----
+```
+
+----
 
 ## ⚙️ Installation & Setup
 
