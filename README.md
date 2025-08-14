@@ -99,4 +99,12 @@ uvicorn app.main:app --reload
 ```
 
 ----
+### 2️⃣ Frontend Setup
 
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+----
