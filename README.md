@@ -75,4 +75,12 @@ auth-system/
 git clone https://github.com/<your-username>/<repo-name>.git
 cd auth-system
 
+----
+
+### 2️⃣ Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+
 
