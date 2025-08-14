@@ -64,7 +64,7 @@ auth-system/
 │   ├── package.json         # Frontend dependencies
 │
 └── README.md
-
+```text
 
 
 ---
