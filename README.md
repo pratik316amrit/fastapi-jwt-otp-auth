@@ -99,12 +99,21 @@ uvicorn app.main:app --reload
 ```
 
 ----
-### 2️⃣ Frontend Setup
+### 3️⃣ Frontend Setup
 
 ```bash
 cd frontend
 npm install
 npm run dev
+```
+
+----
+
+### 🛠️ Tech Stack
+```bash
+Backend: FastAPI, MongoDB, PyJWT, Pydantic
+Frontend: React, Axios, TailwindCSS
+Database: MongoDB Atlas
 ```
 
 ----
