@@ -83,6 +83,20 @@ cd auth-system
 cd backend
 pip install -r requirements.txt
 ```
+Create a .env file in backend/app/ and add:
+
+MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/auth_db
+JWT_SECRET=your_jwt_secret
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USER=your_email@example.com
+EMAIL_PASSWORD=your_email_password
+
+
+Run the backend:
+
+uvicorn app.main:app --reload
+
 
 ----
 
