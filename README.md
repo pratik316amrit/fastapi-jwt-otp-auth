@@ -110,6 +110,8 @@ npm run dev
 ----
 
 ### 🛠️ Tech Stack
+
+
 ```bash
 Backend: FastAPI, MongoDB, PyJWT, Pydantic
 Frontend: React, Axios, TailwindCSS
