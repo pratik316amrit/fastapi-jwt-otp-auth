@@ -49,10 +49,11 @@ auth-system/
 │   ├── app/
 │   │   ├── main.py          # Entry point for FastAPI app
 │   │   ├── auth/            # Authentication routes & logic
-│   │   ├── database.py      # MongoDB connection
+│   │   ├── db.py      # MongoDB connection
 │   │   ├── models.py        # Pydantic models
-│   │   ├── utils.py         # Utility functions (OTP, JWT)
-│   │   └── config.py        # Environment variables & config
+│   │   ├── email_utils.py    # Code for OTP communcation
+|   |   ├── security.py         # Utility functions (OTP, JWT)
+│   │   └── sechmas.py        # Environment variables & config
 │   ├── requirements.txt     # Backend dependencies
 │
 ├── frontend/
@@ -72,7 +73,7 @@ auth-system/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/pratik316amrit/fastapi-jwt-otp-auth.git
 cd auth-system
 ```
 ----
